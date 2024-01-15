@@ -5,6 +5,9 @@
 
 (Tests will fail due to no access rights to Volvo production)
 
+## Run in Docker
+1. Run `docker build -t mytest -f Dockerfile .`
+
 
 ## Test scenarios covered
 
