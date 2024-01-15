@@ -11,7 +11,7 @@ describe('Visibility tests', () => {
     });
 
     it('Menu item should exist', async () => {
-        //Testing content switching by clicking a menu item and confirming the new content through text
+        //Testing menu items through text
         const menuItem = await $$('#LocalSubmenu-1 #Z94pe8rGn_ImRa3OF-H0E div')[2].$('a');
 
         expect(menuItem).toHaveText('Features');
