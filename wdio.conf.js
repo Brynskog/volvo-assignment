@@ -7,6 +7,20 @@ export const config = {
     runner: ['browser', {
 
     }],
+
+    capabilities: [{
+        maxInstances: 1,
+        browserName: 'chrome',
+        'goog:chromeOptions': {
+            args: [
+                '--no-sandbox',
+                '--disable-infobars',
+                '--headless',
+                '--disable-gpu',
+                '--window-size=1440,735'
+            ],
+        }
+    }],
     //
     // ==================
     // Specify Test Files
