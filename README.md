@@ -7,6 +7,7 @@
 
 ## Run in Docker
 1. Run `docker build -t mytest -f Dockerfile .`
+2. Run `docker run -it mytest`
 
 
 ## Test scenarios covered
